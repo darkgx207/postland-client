@@ -1,0 +1,21 @@
+.container {
+    width: 100dvw;
+    height: 4rem;
+
+    background-color: rgb(87, 65, 212);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-inner-container {
+    margin-left: 3rem;
+}
+
+.selected {
+    font-weight: bolder;
+}
+
+.link {
+    cursor: pointer;
+}
