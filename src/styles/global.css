@@ -1,0 +1,76 @@
+/* ANIMATIONS */
+@import url(./animations.css);
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100dvw;
+  height: 100dvh;
+  background: linear-gradient(75deg,rgba(45, 15, 94, 0.979), rgba(51, 49, 49, 0.979));
+}
+
+.routes-container {
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/* BUTTONS */
+button {
+  padding: 0.5rem;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: black;
+  border: none;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+}
+
+button + .red {
+  background-color: rgb(216, 74, 74);
+}
+
+button:hover {
+  filter: brightness(1.1);
+  border: 1px solid rgb(172, 172, 172);
+}
+
+button:active {
+  border: 1px solid rgb(47, 255, 82);
+}
+
+button + .red:active {
+  border: 1px solid rgb(255, 78, 47);
+}
+
+
+/* INPUTS */
+input {
+  background-color: #636363;
+  border-radius: 0.4rem;
+  padding: 2px;
+}
+input:focus {
+  outline: 1px solid rgba(207, 207, 207, 0.644);
+}

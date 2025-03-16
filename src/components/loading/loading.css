@@ -1,0 +1,19 @@
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 10rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.loading {
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+.loading-text {
+    animation: waiting 1s ease-in-out infinite;
+    user-select: none;
+}
